@@ -1,0 +1,22 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore the built "dist" directory
+dist/
+
+# Ignore any other build output directories or files
+build/
+*.log
+*.zip
+*.tar.gz
+*.tgz
+
+# Ignore any local configuration files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore any other generated files
+coverage/
